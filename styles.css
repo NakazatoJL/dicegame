@@ -1,0 +1,72 @@
+.container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+.button {
+  margin-top: 50px;
+  width: 250px;
+  height: 2rem;
+  background: #aad7d9;
+  border: transparent;
+  border-radius: 10px;
+  color: #4b6266;
+}
+
+.button:hover {
+  background: #92c7cf;
+  color: #fbf9f1;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #4b6266;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Abril Fatface", serif;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #92c7cf;
+}
+
+p {
+  font-size: 2rem;
+  color: #aad7d9;
+  font-family: "Abril Fatface", serif;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: auto;
+  color: #92c7cf;
+  text-align: center;
+  font-family: "Abril Fatface", serif;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  img {
+    width: 60%;
+  }
+  .button {
+    width: 150px;
+  }
+}
